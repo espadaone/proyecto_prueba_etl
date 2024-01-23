@@ -5,15 +5,11 @@ name: testing_process
 
 on:
   push:
-    branches: [ "main" ]
-  pull_request:
-    branches: [ "main" ]
-
-permissions:
-  contents: read
+    branches: 
+         - main
 
 jobs:
-  build:
+  proyecto_prueba_etl:
 
     runs-on: ubuntu-latest
 
