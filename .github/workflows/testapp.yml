@@ -9,7 +9,7 @@ on:
          - main
 
 jobs:
-  proyecto_prueba_etl:
+  etl:
 
     runs-on: ubuntu-latest
 
@@ -20,6 +20,6 @@ jobs:
       with:
         python-version: "3.10"
         
-    - name: proyecto_prueba_etl
-      run: python proyecto_prueba_etl/ETL_carga_python_proyecto_prop.py
+    - name: Run ETL Script
+      run: python ETL_carga_python_proyecto_prop.py
         
