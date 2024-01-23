@@ -26,10 +26,10 @@ audiencia = audiencia[['Customers','First Name','Last Name',"Email Address",'Pho
 # CARGA A SQL
 import pymysql
 connection = pymysql.connect(
-    host = 'bil7t8fyzbiril0kibse-mysql.services.clever-cloud.com',
-    user = 'ufchupqdtb5axluu',
-    password = 'YBzMdfqYAau96LyFdtIz',
-    db = 'bil7t8fyzbiril0kibse'
+    host = '',
+    user = '',
+    password = '',
+    db = ''
   )
 cursor = connection.cursor()
 # Creación de la tabla auditoría
